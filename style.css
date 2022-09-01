@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+body{
+  background-image:url("assets/pexels-maxyne-barcel-10402282\ 1.png");
+  background-repeat: no-repeat;
+  /* padding:0% 5%; */
+}
+
+.container{
+  /* background-image:url("assets/pexels-maxyne-barcel-10402282\ 1.png"); */
+  
+  background: rgba(13, 13, 48, 0.7);
+}
+
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+
+.navbar{
+  padding: 3% 5%;
+  display: grid;
+  grid-template-columns: 20% 50% 25%;
+  padding-bottom: 5%;
+}
+
+/* img{
+  display: inline;
+  position:relative;
+} */
+
+.logo{
+  margin-left:30% 3%;;
+}
+
+.list{
+  position: relative;
+  left:50px;
+  text-align: center;
+}
+
+
+.list-item{
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto auto;
+  font-family: "Red Rose";
+  font-weight: 400;
+  padding: 0 5%;
+  font-size: 1.2rem;
+  color: rgb(253, 204, 27);
+}
+
+.button-small{
+  border-spacing: 20px;
+    border-radius: 2px;
+    padding: 2% 10%;
+    margin-left: 40%;
+    font-family: "Red Rose";
+    font-size: 1.4rem;
+    background-color:#de445b ;
+    border-width: 0px;
+    color: white;
+    font-weight: 500;
+    position: relative;
+    left:35%;
+}
+
+
+
+
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+
+.hero{
+  padding: 0% 13%;
+}
+
+.hero-heading{
+  padding-left: 5%;
+  font-family: "Dela Gothic One";
+  font-weight: 700;
+  font-size: 5rem;
+  text-align: center;
+  color: rgb(253, 204, 27) ;
+}
+
+
+.button-large{
+  border-spacing: 20px;
+    border-radius: 2px;
+    padding: 1.6% 4%;
+    margin-left: 40%;
+    font-family: "Red Rose";
+    font-size: 1.4rem;
+    background-color:#de445b ;
+    border-width: 0px;
+    color: white;
+    font-weight: 600;
+    margin-top: 3%;
+}
+
+.bottom div img{
+  width: 12%;
+  padding-bottom: 5%;
+  position: relative;  
+  left:900px;
+}
